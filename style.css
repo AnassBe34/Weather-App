@@ -1,0 +1,113 @@
+ html, body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url("background.jpg");
+    background-size: cover; /* or use contain */
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.search{
+    display: flex;
+    width: 100%;
+    height:fit-content;
+    padding-top: 15px;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+#input{
+    width: 130px;
+    outline: 0;
+    border-radius: 10px;
+}
+
+button{
+    color: white;
+    background-color: rgb(54, 40, 40);
+    border-radius: 12px;
+}
+
+#image{
+    height: 60px;
+    width: 60px;
+}
+.temp{
+    color: white;
+    margin: 0;
+}
+
+
+.weather{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 650px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    
+}
+
+.lignes{
+    width: 20px;
+    height: 20px;
+}
+
+.infos{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parag{
+    color: white;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.values{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+
+.text{
+    color: white;
+    margin: 0;
+    padding-left: 10px;
+    font-size: 8px;
+}
